@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Crystals Collector Game</title>
+</head>
+
+<body>
+    <header> Crystals Collector </header>
+    <div class="row instructions">
+        <div class="col-md-12 instructionsInner">
+            <p>You will be given a random number at the start of the game. There are four crystals below.</p>
+            <p>By clicking on a crystal, you will add a specific amount of points to your total score. </p>
+            <p>You win the game by matching your total score to the random number, you lose the game if your total
+                score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 pink"></div>
+        <div class="col-md-3 targetNumber">Target Number</div>
+        <div class="col-md-3 scoreBoard">
+            <div class="row">
+                <div class="col-md"> Wins: </div>
+                <div class="col-md"> #Wins </div>
+            </div>
+            <div class="row">
+                <div class="col-md">Losses:</div>
+                <div class="col-md">#Losses</div>
+            </div>
+        </div>
+        <div class="col-md-3 pink"></div>
+    </div>
+    <div class="row buttonRow">
+        <div class="col-md-4"></div>
+        <button class="col-md-1 ruby">
+            <img class="crystal" src="./assets/images/ruby_a.jpg" alt="ruby">
+        </button>
+        <button class="col-md-1 diamond">
+            <img class="crystal" src="./assets/images/diamond_a.jpg" alt="ruby">
+        </button>
+        <button class="col-md-1 yellow">
+            <img class="crystal" src="./assets/images/yellow_gem_a.jpg"
+                alt="ruby">
+        </button>
+        <button class="col-md-1 green">
+            <img class="crystal" src="./assets/images/green_gem_a.jpg"
+                alt="yellow gem">
+        </button>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-md pink"></div>
+        <div class="col-md scoreLabel">Your total score is: </div>
+        <div class="col-md pink"></div>
+    </div>
+    <div class="row">
+        <div class="col-md pink"></div>
+        <div class="col-md currentScore"> (current score) </div>
+        <div class="col-md pink"></div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

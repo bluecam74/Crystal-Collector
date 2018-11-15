@@ -1,0 +1,55 @@
+header {
+    background: pink;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 40px;
+}
+
+body {
+    background: pink;
+}
+
+.pink {
+    background: pink;
+}
+
+.instructions {
+    padding-top: 10px;
+    background: rgb(238, 238, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.targetNumber {
+    height: 200px;
+    width: 200px;
+    background: rgb(150, 221, 150);
+}
+
+.scoreBoard {
+    background: rgb(211, 184, 133);
+}
+
+.buttonRow {
+    height: 120px;
+}
+
+.scoreLabel {
+    background: rgb(224, 151, 224);
+    border-bottom: 1px black solid;
+}
+
+.crystal{
+    height: 100px;
+    width: 100px;
+}
+
+.currentScore {
+    background: rgb(224, 151, 224);
+    height: 200px;
+    width: 200px;
+}
