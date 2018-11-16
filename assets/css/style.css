@@ -5,7 +5,7 @@ header {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 body {
@@ -17,30 +17,30 @@ body {
 }
 
 .instructions {
-    padding-top: 10px;
+    padding: 20px 150px 10px 150px;
     background: rgb(238, 238, 177);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 
 }
 
 .targetNumber {
     height: 200px;
     width: 200px;
+    font-size: 60px;
     background: rgb(150, 221, 150);
 }
 
 .scoreBoard {
-    background: rgb(211, 184, 133);
+    background: rgb(240, 183, 77);
+    font-size: 30px;
+    padding: 30px;
 }
 
-.buttonRow {
-    height: 120px;
-}
 
 .scoreLabel {
     background: rgb(224, 151, 224);
     border-bottom: 1px black solid;
+    font-size: 25px;
 }
 
 .crystal{
@@ -48,8 +48,29 @@ body {
     width: 100px;
 }
 
-.currentScore {
+button {
+ border: none;
+ background: none;
+}
+
+.currentScoreBox {
     background: rgb(224, 151, 224);
-    height: 200px;
-    width: 200px;
+
+}
+.currentScore {
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.comment {
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.targetNumber{
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
 }

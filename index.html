@@ -15,8 +15,8 @@
 
 <body>
     <header> Crystals Collector </header>
-    <div class="row instructions">
-        <div class="col-md-12 instructionsInner">
+    <div class="row instructions text-center">
+        <div class="2 instructionsInner text-center">
             <p>You will be given a random number at the start of the game. There are four crystals below.</p>
             <p>By clicking on a crystal, you will add a specific amount of points to your total score. </p>
             <p>You win the game by matching your total score to the random number, you lose the game if your total
@@ -27,46 +27,52 @@
     </div>
     <div class="row">
         <div class="col-md-3 pink"></div>
-        <div class="col-md-3 targetNumber">Target Number</div>
+        <div class="col-md-3 targetNumber"></div>
         <div class="col-md-3 scoreBoard">
             <div class="row">
                 <div class="col-md"> Wins: </div>
-                <div class="col-md"> #Wins </div>
+                <div class="col-md wins"> 0 </div>
             </div>
+            <p></p>
             <div class="row">
                 <div class="col-md">Losses:</div>
-                <div class="col-md">#Losses</div>
+                <div class="col-md losses"> 0 </div>
             </div>
         </div>
         <div class="col-md-3 pink"></div>
     </div>
     <div class="row buttonRow">
-        <div class="col-md-4"></div>
-        <button class="col-md-1 ruby">
-            <img class="crystal" src="./assets/images/ruby_a.jpg" alt="ruby">
-        </button>
-        <button class="col-md-1 diamond">
-            <img class="crystal" src="./assets/images/diamond_a.jpg" alt="ruby">
-        </button>
-        <button class="col-md-1 yellow">
-            <img class="crystal" src="./assets/images/yellow_gem_a.jpg"
-                alt="ruby">
-        </button>
-        <button class="col-md-1 green">
-            <img class="crystal" src="./assets/images/green_gem_a.jpg"
-                alt="yellow gem">
-        </button>
-        <div class="col-md-4"></div>
+        <div class="col-md"></div>
+        <div class="col-md-6 buttons text-center">
+            <button class="ruby">
+                <img class="crystal" src="./assets/images/ruby_a.jpg" alt="ruby">
+            </button>
+            <button class="diamond">
+                <img class="crystal" src="./assets/images/diamond_a.jpg" alt="diamond">
+            </button>
+            <button class="yellowGem">
+                <img class="crystal" src="./assets/images/yellow_gem_a.jpg"
+                    alt="yellow gem">
+            </button>
+            <button class="greenGem">
+                <img class="crystal" src="./assets/images/green_gem_a.jpg"
+                    alt="green gem">
+            </button>
+        </div>
+        <div class="col-md"></div>
     </div>
     <div class="row">
-        <div class="col-md pink"></div>
+        <div class="col-md-4 pink"></div>
         <div class="col-md scoreLabel">Your total score is: </div>
-        <div class="col-md pink"></div>
+        <div class="col-md-4 pink"></div>
     </div>
     <div class="row">
-        <div class="col-md pink"></div>
-        <div class="col-md currentScore"> (current score) </div>
-        <div class="col-md pink"></div>
+        <div class="col-md-4 pink"></div>
+        <div class="col-md-4 currentScoreBox">
+            <p class="currentScore"> </p> 
+            <p class="comment"> </p>
+        </div>
+        <div class="col-md-4 pink"></div>
 
     </div>
 
