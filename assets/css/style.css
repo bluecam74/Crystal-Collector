@@ -3,7 +3,7 @@ header {
     color: black;
     text-align: center;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Jazz LET, fantasy;
     padding: 20px;
     font-size: 60px;
 }
@@ -20,6 +20,7 @@ body {
     padding: 20px 150px 10px 150px;
     background: rgb(238, 238, 177);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 
 }
 
@@ -44,8 +45,8 @@ body {
 }
 
 .crystal{
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
 }
 
 button {
@@ -70,7 +71,7 @@ button {
 }
 
 .targetNumber{
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }

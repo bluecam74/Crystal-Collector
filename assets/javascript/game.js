@@ -11,7 +11,7 @@ losses = 0;
 goalNum = null;
 currentNum = 0;
 
-
+// resarts the game without erasing win/loss record
 function newGame() {
     $(".targetNumber").empty();
     goalGenerator(); 
@@ -19,26 +19,23 @@ function newGame() {
     crystalNumberGenerator();
     $(".currentScore").empty();
     $(".currentScore").append(currentNum);
-
-    
 }
 
+//generates the random number bewteen 19 and 120 that the user tries to match 
 function goalGenerator() {
     goalNum = Math.floor(Math.random() * 101) + 19;
     $(".targetNumber").append(goalNum);
 }
 
+//generates new values for each crystal
 function crystalNumberGenerator() {
     num1 = Math.floor(Math.random() * 11) + 1;
-    console.log("num1: " + num1);
     num2 = Math.floor(Math.random() * 11) + 1;
-    console.log("num2: " + num2)
     num3 = Math.floor(Math.random() * 11) + 1;
-    console.log("num3: " + num3)
     num4 = Math.floor(Math.random() * 11) + 1;
-    console.log("num4: " + num4)
 }
 
+// These four click functions are attached to each crystal image
 $(".ruby").on("click", function () {
     currentNum+=num1;
     $(".currentScore").empty();
@@ -51,7 +48,6 @@ $(".diamond").on("click", function () {
     $(".currentScore").empty();
     $(".currentScore").append(currentNum);
     compareNumbers();
-
 });
 
 $(".yellowGem").on("click", function () {
@@ -59,7 +55,6 @@ $(".yellowGem").on("click", function () {
     $(".currentScore").empty();
     $(".currentScore").append(currentNum);
     compareNumbers();
-
 });
 
 $(".greenGem").on("click", function () {
@@ -69,6 +64,7 @@ $(".greenGem").on("click", function () {
     compareNumbers();
 });
 
+//checks if user reached or surpassed the random number, determining wins or lossess. 
 function compareNumbers() {
     if (currentNum === goalNum) {
         wins++
