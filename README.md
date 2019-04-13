@@ -17,7 +17,7 @@ Each time when the game starts, the game will change the values of each crystal.
 Random number generated and sum functions/methods used to generate proper results. 
 
 
-<p align="center"><img src="./assets/images/WordGussScrnSht.png" alt="Word Guess Preview" width="675"></p>
+<p align="center"><img src="./assets/images/CrystalScrnShot.png" alt="Crystal Collector Preview" width="675"></p>
 
 
 ### Technologies Used
