@@ -1,7 +1,7 @@
 # Crystal Collector Game
 
 #### Deployed Link:
-* https://bluecam74.github.io/unit-4-game/
+* https://bluecam74.github.io/Crystal-Collector/
 
 ### About
 
