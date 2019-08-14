@@ -15,8 +15,8 @@
 
 <body>
     <header> Crystals Collector </header>
-    <div class="row instructions text-center">
-        <div class="2 instructionsInner text-center">
+    <div class="row instructions text-center justify-content-center">
+        <div class="instructionsInner text-center">
             <p>You will be given a random number at the start of the game. There are four crystals below.</p>
             <p>By clicking on a crystal, you will add a specific amount of points to your total score. </p>
             <p>You win the game by matching your total score to the random number, you lose the game if your total
@@ -25,25 +25,9 @@
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-3 pink"></div>
-        <div class="col-md-3 targetNumber"></div>
-        <div class="col-md-3 scoreBoard">
-            <div class="row">
-                <div class="col-md"> Wins: </div>
-                <div class="col-md wins"> 0 </div>
-            </div>
-            <p></p>
-            <div class="row">
-                <div class="col-md">Losses:</div>
-                <div class="col-md losses"> 0 </div>
-            </div>
-        </div>
-        <div class="col-md-3 pink"></div>
-    </div>
-    <div class="row buttonRow">
-        <div class="col-md"></div>
-        <div class="col-md-6 buttons text-center">
+
+    <div class="row buttonRow justify-content-center">
+        <div class="col-md buttons text-center">
             <button class="ruby">
                 <img class="crystal" src="./assets/images/ruby_a.jpg" alt="ruby">
             </button>
@@ -59,26 +43,36 @@
                     alt="green gem">
             </button>
         </div>
-        <div class="col-md"></div>
     </div>
-    <div class="row">
-        <div class="col-md-4 pink"></div>
-        <div class="col-md scoreLabel">Your total score is: </div>
-        <div class="col-md-4 pink"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-4 pink"></div>
-        <div class="col-md-4 currentScoreBox">
-            <p class="currentScore"> </p> 
-            <p class="comment"> </p>
+
+    <div class="row row-scores justify-content-center">
+        <!-- <div class="col-md-3"></div> -->
+        <div class="col-md-4 targetNumber"></div>
+        <div class="col-md-4 current-total">
+            <div class="row scoreLabel">Your total score is: </div>
+            <div class="row currentScoreBox">
+                <div class="col-md currentScoreBox justify-content-center">
+                    <p class="currentScore"> </p> 
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 pink"></div>
-
+        <div class="col-md-4 scoreBoard">
+            <div class="row">
+                <div class="col-md"> Wins: </div>
+                <div class="col-md wins"> 0 </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md">Losses:</div>
+                <div class="col-md losses"> 0 </div>
+            </div>
+            <div class="row justify-content-center">
+                <p class="comment"></p>
+            </div>
+        </div>
+        
     </div>
-
-
-
-
+   
 
 </body>
 

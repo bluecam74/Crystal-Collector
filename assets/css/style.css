@@ -1,6 +1,5 @@
 header {
-    background: pink;
-    color: black;
+    color: rgb(62, 123, 134);
     text-align: center;
     font-weight: 700;
     font-family: Jazz LET, fantasy;
@@ -9,39 +8,62 @@ header {
 }
 
 body {
-    background: pink;
-}
-
-.pink {
-    background: pink;
+    background-image: url("../images/eberhard-grossgasteiger.jpg");
 }
 
 .instructions {
-    padding: 20px 150px 10px 150px;
-    background: rgb(238, 238, 177);
+    padding: 20px 100px 10px 100px;
+    background: rgba(244, 246, 247, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    color: rgb(62, 123, 134);
+
+}
+
+.row-scores {
+    margin: 30px 0 150px 0;
 
 }
 
 .targetNumber {
-    height: 200px;
-    width: 200px;
-    font-size: 60px;
-    background: rgb(150, 221, 150);
+    font-size: 100px !important;
+    background: rgb(255, 255, 255, .5);
+    border: 3px solid rgb(140, 192, 183);
+    font-size: 80px;
+    text-align: center;
+    padding: 40px;
+    color: rgb(62, 123, 134);
+    align-content: center;
+    
+}
+
+.buttonRow {
+    margin: 30px 0;
+}
+
+.current-total {
+    border: 3px solid rgb(140, 192, 183);
+    background: rgb(255, 255, 255, .5);
+    border-left: none;
 }
 
 .scoreBoard {
-    background: rgb(240, 183, 77);
+    background: rgb(255, 255, 255, .5);
+    border-left: none;
     font-size: 30px;
     padding: 30px;
+    color: rgb(62, 123, 134);
+    border: 3px solid rgb(140, 192, 183);
+    border-left: none;
 }
 
 
 .scoreLabel {
-    background: rgb(224, 151, 224);
-    border-bottom: 1px black solid;
+    /* background: rgb(224, 151, 224); */
+    /* border-bottom: 1px black solid; */
     font-size: 25px;
+    color: rgb(62, 123, 134);
+    margin: 20px 10px 10px 10px;
 }
 
 .crystal{
@@ -54,24 +76,18 @@ button {
  background: none;
 }
 
-.currentScoreBox {
-    background: rgb(224, 151, 224);
-
-}
 .currentScore {
     height: 150px;
     font-size: 100px;
     text-align: center;
+    color: rgb(62, 123, 134);
+    
+
 }
 
 .comment {
-    padding-bottom: 40px;
+    margin-top: 40px;
     font-size: 20px;
     text-align: center;
-}
-
-.targetNumber{
-    font-size: 80px;
-    text-align: center;
-    padding: 40px;
+    color: rgb(62, 123, 134);
 }
